@@ -95,8 +95,13 @@ strong{
     float: left;
     background-color: black;
     margin-bottom: 40px;
+    height: 300px;
 }
 .footer p{
+    color:lightgray;
+    padding: 0 10px;
+}
+legend{
     color:lightgray;
 }
 .copy_right p{
