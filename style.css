@@ -5,12 +5,23 @@ body{
 
 h1{
     font-size: 30px;
+    color: darkblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 h2{
     font-size: 20px;
+    font-weight: 700;
+    color: sandybrown;
+    text-transform: uppercase;
 }
 p{
     font-size: 16px;
+    text-align: justify;
 }
 a{
     text-decoration: none;
@@ -20,21 +31,29 @@ a{
 span{
     color: brown;
     font-weight: 700;
+    font-size: 25px;
 }
 strong{
     color: chocolate;
 }
-#my_profile{
-    margin-bottom: 50px;
+.my_profile{
+    margin-top: 50px;
 }
-.w-50{
-    width: 40%;
+
+.my_profile,
+.my_dream{
+    width: 100%;
+}
+
+.w-50{ 
+    width: 45%;
+    margin-left: 5%;
     float: left;
-    height: 80%;
-    margin-left: 5% ;
+    
 }
 .w-50 img{
     width: 100%;
+    margin-bottom: 100px;
 }
 .my_button{
     padding: 15px 20px;
@@ -44,4 +63,36 @@ strong{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.visiting_area{
+    float: left;
+    height: 600px;
+    margin-bottom: 60px;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    display: inline;
+}
+
+.w-30{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-left: 2%;
+    
+}
+.w-30 img{
+    width: 100%;
+    margin-bottom: 20px;
+    height:270px;
+}
+.footer{
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+.footer p{
+    color:lightgoldenrodyellow  ;
 }
